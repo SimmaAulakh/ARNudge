@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Nudge
 //
-//  Created by Dcube Ventures on 10/09/19.
-//  Copyright © 2019 Dcube Ventures. All rights reserved.
+//  Created by Simranjeet Singh on 10/09/19.
+//  Copyright © 2019 Simranjeet Singh. All rights reserved.
 //
 
 import UIKit

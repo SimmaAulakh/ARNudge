@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Nudge
 //
-//  Created by Dcube Ventures on 10/09/19.
-//  Copyright © 2019 Dcube Ventures. All rights reserved.
+//  Created by Simranjeet Singh on 10/09/19.
+//  Copyright © 2019 Simranjeet Singh. All rights reserved.
 //
 
 import UIKit
@@ -42,9 +42,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        GMSServices.provideAPIKey("AIzaSyDMJDj7XRvygOJKH_HsG3lzu46Gw9HHabE")
+        GMSServices.provideAPIKey("")
         
-        GMSPlacesClient.provideAPIKey("AIzaSyDMJDj7XRvygOJKH_HsG3lzu46Gw9HHabE")
+        GMSPlacesClient.provideAPIKey("")
         
         UIApplication.shared.setMinimumBackgroundFetchInterval(
             UIApplication.backgroundFetchIntervalMinimum)

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6601921C2330B70C0017F17B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6601921B2330B70C0017F17B /* GoogleService-Info.plist */; };
 		660F8EBE232B71390067AE6B /* HelpingClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660F8EBD232B71390067AE6B /* HelpingClass.swift */; };
 		660F8EC0232B72F80067AE6B /* OfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660F8EBF232B72F80067AE6B /* OfferViewController.swift */; };
 		6637AD01234C790200878CE9 /* CustomizedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637AD00234C790100878CE9 /* CustomizedTabBar.swift */; };
@@ -101,7 +100,6 @@
 		0F9740493BE7F3EE4231A8EF /* Pods-Nudge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nudge.release.xcconfig"; path = "Target Support Files/Pods-Nudge/Pods-Nudge.release.xcconfig"; sourceTree = "<group>"; };
 		1F377D3FFAC24D5139AB5387 /* Pods_NudgeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NudgeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6422BCD2BB7C78D6151461E0 /* Pods-Nudge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nudge.debug.xcconfig"; path = "Target Support Files/Pods-Nudge/Pods-Nudge.debug.xcconfig"; sourceTree = "<group>"; };
-		6601921B2330B70C0017F17B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6601921D2330DE1C0017F17B /* Nudge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nudge.entitlements; sourceTree = "<group>"; };
 		660F8EBD232B71390067AE6B /* HelpingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpingClass.swift; sourceTree = "<group>"; };
 		660F8EBF232B72F80067AE6B /* OfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewController.swift; sourceTree = "<group>"; };
@@ -408,7 +406,6 @@
 			children = (
 				66B8E15B232778680098AD3A /* AppDelegate.swift */,
 				66B8E15D232778680098AD3A /* ViewController.swift */,
-				6601921B2330B70C0017F17B /* GoogleService-Info.plist */,
 				66B8E15F232778680098AD3A /* Main.storyboard */,
 				66B8E191232788840098AD3A /* art.scnassets */,
 				66B8E162232778690098AD3A /* Assets.xcassets */,
@@ -681,7 +678,6 @@
 			files = (
 				66B8E166232778690098AD3A /* LaunchScreen.storyboard in Resources */,
 				66B8E192232788840098AD3A /* art.scnassets in Resources */,
-				6601921C2330B70C0017F17B /* GoogleService-Info.plist in Resources */,
 				66B8E163232778690098AD3A /* Assets.xcassets in Resources */,
 				66B8E161232778680098AD3A /* Main.storyboard in Resources */,
 			);

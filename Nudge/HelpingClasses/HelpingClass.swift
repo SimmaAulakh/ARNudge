@@ -2,8 +2,8 @@
 //  HelpingClass.swift
 //  Nudge
 //
-//  Created by Dcube Ventures on 13/09/19.
-//  Copyright © 2019 Dcube Ventures. All rights reserved.
+//  Created by Simranjeet Singh on 13/09/19.
+//  Copyright © 2019 Simranjeet Singh. All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class HelpingClass: NSObject {
     
 static let shared = HelpingClass()
     
-    let baseURL = "http://ec2-3-15-174-53.us-east-2.compute.amazonaws.com"
+    let baseURL = ""
     
     var currentLocation = CLLocation()
     
