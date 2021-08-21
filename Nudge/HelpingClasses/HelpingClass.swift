@@ -11,14 +11,10 @@ import CoreLocation
 
 class HelpingClass: NSObject {
     
-static let shared = HelpingClass()
-    
+    static let shared = HelpingClass()
     let baseURL = ""
-    
     var currentLocation = CLLocation()
-    
     var selectedOffer: Offers_Data?
-    
     var anywhereOffers:[Offers_Data] = []
     
     //This function is used for delay purposes
@@ -32,15 +28,14 @@ static let shared = HelpingClass()
     
     //This functions calculates users distance from any offer nearby
     func getNearbyLocations(location:CLLocation,responseBack:@escaping ((Bool, NSError?) -> ())) {
-     
-        let locations = WebServices.shared.offersLocations
         
+        let locations = WebServices.shared.offersLocations
         let offerLocations = WebServices.shared.storeOfferLoc
-       
+        
         for loc in locations{
             
             let storeLocation = CLLocation(latitude: Double(loc.lat!) as! CLLocationDegrees, longitude: Double(loc.lng!) as! CLLocationDegrees)
-
+            
             let distanceInMeters = storeLocation.distance(from: location)
             
             if distanceInMeters <= 50{
@@ -58,22 +53,22 @@ static let shared = HelpingClass()
             
             if loc.lng != "" || loc.lat != ""{
                 
-            let storeLocation = CLLocation(latitude: Double(loc.lat!) as! CLLocationDegrees, longitude: Double(loc.lng!) as! CLLocationDegrees)
-            
-            let distanceInMeters = storeLocation.distance(from: location)
+                let storeLocation = CLLocation(latitude: Double(loc.lat!) as! CLLocationDegrees, longitude: Double(loc.lng!) as! CLLocationDegrees)
                 
-            if distanceInMeters <= 50{
+                let distanceInMeters = storeLocation.distance(from: location)
                 
-                responseBack(true, nil)
-                
-            }else{
-                
-                responseBack(false, nil)
-                
+                if distanceInMeters <= 50{
+                    
+                    responseBack(true, nil)
+                    
+                }else{
+                    
+                    responseBack(false, nil)
+                    
                 }
                 
             }
-        
+            
         }
         
     }
@@ -82,17 +77,17 @@ static let shared = HelpingClass()
         //Convert otherLocation to type CLLocation
         let storeLocation = CLLocation(latitude: Double(otherLocation.lat!) as! CLLocationDegrees, longitude: Double(otherLocation.lng!) as! CLLocationDegrees)
         
-         //Get distance within both locations in Meters
-            let distanceInMeters = storeLocation.distance(from: myLocation)
+        //Get distance within both locations in Meters
+        let distanceInMeters = storeLocation.distance(from: myLocation)
         
-            if distanceInMeters <= 50{  //check if location is within 50meters from store location
-                
-                responseBack(true, nil)
-                
-            }else{
-                
-                responseBack(false, nil)
-                
+        if distanceInMeters <= 50{  //check if location is within 50meters from store location
+            
+            responseBack(true, nil)
+            
+        }else{
+            
+            responseBack(false, nil)
+            
         }
         
     }
@@ -243,6 +238,7 @@ extension UIImage {
         context.clip(to: bounds, mask: maskImage)
         context.setFillColor(color.cgColor)
         context.fill(bounds)
+        
         
         if let cgImage = context.makeImage() {
             let coloredImage = UIImage(cgImage: cgImage)
