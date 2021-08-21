@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>424431728181-ebq0dm865esr4rbsf4jv6n0t3css4nkm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.424431728181-ebq0dm865esr4rbsf4jv6n0t3css4nkm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBRxSMUFacRv5sfgewZPCrnA7Lxz3jqfW4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>424431728181</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.AR.Nudge</string>
+	<key>PROJECT_ID</key>
+	<string>nudge-1568098881156</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nudge-1568098881156.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:424431728181:ios:3dc69616ad2dbb43cfa37c</string>
+	<key>DATABASE_URL</key>
+	<string>https://nudge-1568098881156.firebaseio.com</string>
+</dict>
+</plist>
